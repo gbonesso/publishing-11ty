@@ -1,0 +1,16 @@
+{
+  "name": "publishing-11ty",
+  "version": "1.0.0",
+  "description": "Exemplo de publicação usando o 11ty",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "author": "Gustavo Bonesso",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1",
+    "markdown-it": "^14.0.0",
+    "markdown-it-attrs": "^4.1.6"
+  }
+}
