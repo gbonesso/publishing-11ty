@@ -5,7 +5,7 @@ layout: base.njk
 #layout: default
 ---
 
-![{{title}}]({{img}})
+![{{title}}]({{img | url}})
 
 [Big Star Logo](images/logo_bigstar.svg){style="max-width:800px"}
 
